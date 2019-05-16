@@ -1,5 +1,14 @@
 # dirty-code-to-clean
 
+Requirement:
+
+-Name not empty
+-Last name not empty
+-Valid email (that contains @)
+-More (or equals) than 10 years of experience
+-At least 1 degree or 1 certification
+
+
 to run:
 
 mvn spring-boot:run
@@ -20,6 +29,9 @@ Body:
     "employeer":"my company",
     "hasBlog":false,
     "blogUrl":null,
+    "degrees":[
+    	"Software engineer", "Computer Sciences"
+    ],
     "certifications":[
     	"Java 7"
     ],
@@ -27,3 +39,4 @@ Body:
     	"clean code", "microservice with spring boot", "design patterns"
     ]
 }
+

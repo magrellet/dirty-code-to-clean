@@ -10,6 +10,7 @@ public class Speaker {
     private String employeer;
     private Boolean hasBlog;
     private String blogUrl;
+    private List<String> degrees;
     private List<String> certifications;
     private List<String> sessions;
 
@@ -68,6 +69,14 @@ public class Speaker {
 
     public void setBlogUrl(String blogUrl) {
         this.blogUrl = blogUrl;
+    }
+
+    public List<String> getDegrees() {
+        return degrees;
+    }
+
+    public void setDegrees(List<String> degrees) {
+        this.degrees = degrees;
     }
 
     public List<String> getCertifications() {
