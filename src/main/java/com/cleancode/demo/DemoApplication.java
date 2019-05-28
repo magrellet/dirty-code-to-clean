@@ -1,11 +1,10 @@
-package com.cleancode.demo.controller;
+package com.cleancode.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan("com.cleancode.demo.service, com.cleancode.demo.controller")
 public class DemoApplication {
 
 	public static void main(String[] args) {
